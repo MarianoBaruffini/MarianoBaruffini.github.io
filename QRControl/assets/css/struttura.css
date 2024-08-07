@@ -1,0 +1,120 @@
+body, form, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd { margin: 0px; padding: 0px; font-size: 100%; font-weight: normal; list-style: outside none none; }
+table {	border-collapse: collapse;	border-spacing: 0px; }
+a { color: #01477f; text-decoration: underline; }
+a:hover, a:focus { color: #c00; }
+a:visited { color: #800080; text-decoration: underline; }
+img { border-width: 0px; text-decoration: none; vertical-align: middle; }
+
+body {
+ min-width: 900px;
+ background-color: #fff;
+ font-family: Arial,Helvetica,sans-serif; font-size: 88%; color: #444; line-height: 1.5em;
+}
+
+.skip {
+ position: absolute; left: -10000px;
+ width: 0px; height: 0px; overflow: hidden;
+}
+
+.clearfix {
+ clear: both;
+ display: block;
+ height: 0px;
+ content: '';
+}
+
+div.contenitore {
+ margin: 0px auto;
+ min-width: 890px; width: 90%; max-width: 1280px;
+}
+
+div.grigio {
+ background-color: #e5e4e2;
+}
+
+#template.privata div.grigio {
+ margin-top: 50px;
+}
+
+#main {
+ min-height: 460px;
+ background-color: #fff;
+}
+
+#main:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+#template.spalla-dx #contenuti-pagina {
+ float: left;
+ width: 66%;
+}
+
+#spalla-dx {
+ display: none;
+}
+
+#template.spalla-dx #spalla-dx {
+ display: block;
+ float: right;
+ width: 30%;
+}
+
+#template.spalla-sx #contenuti-pagina {
+ float: right;
+ width: 73%;
+}
+
+#spalla-sx {
+ display: none;
+}
+
+#template.spalla-sx #spalla-sx {
+ display: block;
+ float: left;
+ width: 25%;
+}
+
+.cols-3:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+.cols-3 > .col-1 {
+ float: left;
+ display: block;
+ width: 33.3%;
+}
+
+.cols-3 > .col-2 {
+ float: left;
+ display: block;
+ width: 66.6%;
+}
+
+.cols-4:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+.cols-4 > .col-1 {
+ float: left;
+ display: block;
+ width: 24.9%;
+}
+
+.cols-4 > .col-2 {
+ float: left;
+ display: block;
+ width: 49.9%;
+}
+
+.cols-4 > .col-3 {
+ float: left;
+ display: block;
+ width: 74.9%;
+}

@@ -1,0 +1,226 @@
+#testata {
+/*
+ border-top: 6px #434343 solid;
+*/
+}
+
+#ricerca {
+ border-bottom: 1px #d7d7d7 solid;
+ background-color: #f4f4f4;
+ padding: 6px 0px;
+ text-align: right;
+}
+
+#ricerca label {
+ text-transform: uppercase; vertical-align: middle;
+ cursor: pointer;
+}
+
+#ricerca input[type=text] {
+ border: 1px #e5e4e2 solid;
+ width: 160px;
+ background-color: #fff;
+ padding: 1px 5px;
+ vertical-align: middle;
+}
+
+#ricerca input[type=image] {
+ margin-left: -5px;
+ vertical-align: middle;
+}
+
+#logo {
+ background-color: #fff;
+}
+
+#logo:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+#logo .sx {
+ float: left;
+ width: 25%;
+ padding: 20px 0px;
+}
+
+#template.pubblica #logo .dx {
+ float: right;
+ width: 74%;
+ padding: 20px 0px;
+ text-align: right;
+}
+
+#template.pubblica #logo .dx > img {
+ margin-right: 20px;
+}
+
+#template.privata #logo .dx {
+ position: relative;
+ float: right;
+ margin: 15px 0px;
+ border: 1px #eee solid;
+ max-width: 65%; min-height: 75px;
+ background-color: #eee;
+ padding: 10px 20px;
+}
+
+#template.privata #logo .dx:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+#template.privata.ie7 #logo .dx {
+ width: 400px;
+}
+
+#template.privata #logo .dx p {
+ max-width: 400px;
+}
+
+#template.privata.ie7 #logo .dx p {
+ max-width: 240px;
+}
+
+#template.privata #logo .isx {
+ position: absolute; left: -82px; top: -1px;
+ border: 1px #eee solid;
+ width: 40px; height: 100%;
+ background-color: #fff;
+ padding: 0px 20px;
+}
+
+#template.privata #logo .isx img {
+ padding-top: 20px;
+}
+
+#template.privata #logo .icx {
+ float: left;
+ padding-right: 20px;
+}
+
+#template.privata #logo .idx {
+ float: right;
+ border-left: 1px #fff solid;
+}
+
+#template.privata #logo .dx .logged {
+ margin-bottom: 10px;
+ min-height: 16px;
+ background: transparent url(../img/icon/logged.png) no-repeat left center;
+ padding-left: 25px; text-transform: uppercase;
+}
+
+#template.privata #logo .idx li {
+ width: 100%;
+ padding-left: 20px;
+}
+
+#template.privata #logo .dx a.bottone,
+#template.privata #logo .dx a.bottone:active,
+#template.privata #logo .dx a.bottone:visited {
+ display: inline-block;
+ margin-bottom: 9px;
+ background-color: #034689;
+ padding: 1px 8px;
+ color: #fff; text-decoration: none;
+}
+
+#template.privata #logo .dx a.bottone:focus,
+#template.privata #logo .dx a.bottone:hover {
+ text-decoration: underline;
+}
+
+#template.privata #logo .dx a.link,
+#template.privata #logo .dx a.link:active,
+#template.privata #logo .dx a.link:visited {
+ margin: 0px;
+ text-decoration: none;
+}
+
+#template.privata #logo .dx a.link:focus,
+#template.privata #logo .dx a.link:hover {
+ text-decoration: underline;
+}
+
+#menu-principale {
+ border-bottom: 11px #e5e4e2 solid;
+ min-height: 36px;;
+ background-color: #034689;
+}
+
+#menu-principale:after {
+ clear: both;
+ display: block;
+ content: '';
+}
+
+#menu-principale ul {
+ display: none;
+}
+
+#template.privata #menu-principale ul {
+ display: block;
+}
+
+#template.privata #menu-principale ul li {
+ float: left;
+}
+
+#template.privata #menu-principale ul li a,
+#template.privata #menu-principale ul li a:active,
+#template.privata #menu-principale ul li a:visited {
+ display: block;
+ border-left: 1px #0457aa solid;
+ padding: 8px 10px;
+ color: #fff; text-decoration: none;
+}
+
+#template.privata #menu-principale ul li a.inverti {
+ background-color: #0457aa;
+ border-left-color: #034689;
+ text-decoration: none;
+}
+
+#template.privata #menu-principale ul li a.corrente,
+#template.privata #menu-principale ul li a:focus,
+#template.privata #menu-principale ul li a:hover {
+ background-color: #e5e4e2;
+ color: #000; text-decoration: none;
+}
+
+#template.privata #menu-principale ul li a.corrente {
+ font-weight: bold;
+}
+
+#template.homepage.pubblica #menu-principale {
+ display: none;
+}
+
+#navigazione {
+ background-color: #fff;
+ padding-top: 15px;
+ font-size: 95%;
+}
+
+#template.pubblica.homepage #navigazione {
+ display: none;
+}
+
+#template.pubblica #navigazione .guida {
+ display: none;
+}
+
+#template.privata #navigazione .contenitore {
+ position: relative;
+}
+
+#template.privata #navigazione .guida {
+ position: absolute; right: 0px; top: 0px;
+}
+
+#navigazione span {
+ text-transform: uppercase;
+}
